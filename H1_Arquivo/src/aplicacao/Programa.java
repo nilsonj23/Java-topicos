@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Programa {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		File arquivo = new File("A:\\Documentos\\Programação\\Java\\eclipse-workspace\\H1_Arquivo\\Texto.txt");
 		Scanner entrada = null;

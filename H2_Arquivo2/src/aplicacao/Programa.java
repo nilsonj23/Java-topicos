@@ -9,7 +9,7 @@ public class Programa {
 	public static void main(String[] args) {
 		String caminho = "A:\\Documentos\\Programação\\Java\\eclipse-workspace\\H2_Arquivo2\\Texto.txt";
 			
-		// Com o BufferedReader a leitura é fica mais rápida
+		// Com o BufferedReader a leitura é mais rápida
 		try (BufferedReader br = new BufferedReader(new FileReader(caminho))){
 			String linha = br.readLine();
 			while (linha != null) {

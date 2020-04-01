@@ -46,7 +46,7 @@ public class Programa {
 					bw.newLine();
 				}
 
-				System.out.println(arqDestino + " CRIADO COM SUCESSO!");
+				System.out.println(arqDestino + "\nCRIADO COM SUCESSO!");
 			}
 			catch (IOException e) {
 				System.out.println("Erro na escrita do arquivo: " + e.getMessage());
