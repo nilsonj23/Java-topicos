@@ -1,0 +1,1 @@
+java --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml -cp Projeto com JavaFX e JDBC.jar application.Main
