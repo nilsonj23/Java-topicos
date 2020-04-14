@@ -28,3 +28,5 @@ Criar um arquivo .bat com o comando: java --module-path %PATH_TO_FX% --add-modul
 
 ***** Criar ataho:
 Criar atalho normal e em propiedades -> atalho -> iniciar em: caminho da pasta JAR, e Destino: o comando:java --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml -cp Projeto com JavaFX e JDBC.jar application.Main
+
+Ou o comando para não aparecer o cmd quando rodar a aplicação: start javaw --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml -cp Projeto com JavaFX e JDBC.jar application.Main
